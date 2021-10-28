@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     HomeComponent,
     NavbarComponent,
     AboutusComponent,
+    SignupComponent,
    
   ],
   imports: [
