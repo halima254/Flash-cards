@@ -2,3 +2,19 @@ body{
     background-color:#c1dbf7;
     /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTjs5X01o0-brtoo7nCPohizHbI1uZ17gXFA&usqp=CAU); */
 }
+img{
+    border-radius: 50%;
+    box-shadow: 1px 1px white;
+    margin-left: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
