@@ -11,6 +11,9 @@ import { MatSliderModule } from '@angular/material/slider';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { SignupComponent } from './signup/signup.component';
+import { SubjectsComponent } from './subjects/subjects.component';
+import {HttpClientModule} from '@angular/common/http';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,8 @@ import { SignupComponent } from './signup/signup.component';
     NavbarComponent,
     AboutusComponent,
     SignupComponent,
+    SubjectsComponent,
+    UserComponent,
    
   ],
   imports: [
@@ -28,6 +33,7 @@ import { SignupComponent } from './signup/signup.component';
     MatSliderModule,
     MatToolbarModule,
     MatButtonModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

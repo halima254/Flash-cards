@@ -1,0 +1,27 @@
+<body>
+ 
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4"*ngFor = 'let myCard of user' >
+          <div class="card">
+            <img class="card-img-top"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReXaE1Yhh_vFMGEAZNSO0-34GG4NKhuTyGtw&usqp=CAU"
+              alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">{{myCard.user}}</h2>
+              <h3 class="card-title">{{myCard.bio}}</h3>
+              <p class="card-text">{{myCard.email}}</p>
+              <a href="{{myCard.id}}" ><button class="btn btn-primary">link</button></a>
+             
+
+             
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+ </body>
+    
+

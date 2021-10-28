@@ -15,7 +15,7 @@
         <div class="col-md-4">
             <h2>~~ Studies Come First ~~</h2>
             
-            <form class="text-center border border-light p-3">
+            <form class="text-center border border-light p-3" id="loginform">
             
               <p class="h4 mb-4">Sign in</p>
             
@@ -25,23 +25,12 @@
               <!-- Password -->
               <input type="password" id="defaultLoginFormPassword" class="form-control mb-3" placeholder="Password">
             
-              <!-- <div class="d-flex justify-content-around"> -->
-                <!-- <div> -->
-                  <!-- Remember me -->
-                  <!-- <mdb-checkbox [default]="true">Remember me</mdb-checkbox> -->
-                <!-- </div> -->
-                <!-- <div> -->
-                  <!-- Forgot password -->
-                  <!-- <a href="">Forgot password?</a> -->
-                <!-- </div> -->
-              <!-- </div> -->
-            
-              <!-- Sign in button -->
-              <button mdbBtn color="info" block="true" class="my-4" type="submit">Sign in</button>
+             
+              <a href="/subjects">Sign in</a>
             
               <!-- Register -->
               <p>New User?
-                <a href="">Register</a>
+                <a mat-raised-button routerLink='/signup'>Register</a>
               </p>
             
             </form>
